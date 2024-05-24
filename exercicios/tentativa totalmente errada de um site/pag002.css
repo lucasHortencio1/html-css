@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    background-image: linear-gradient(to right,#F56476,#E43F6F,#BE3E82);
+}
+img{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+
+ header h1{
+    text-align: center;
+    color:#E6B89C;
+    border-width: 10px;
+    
+}
+h2{
+    color:rgb(102, 28, 28);
+    text-shadow: 3px 3px 10px brown;
+}
+p{
+    font-style: italic;
+    color: black;
+    text-shadow:  3px 3px 10px white;
+}

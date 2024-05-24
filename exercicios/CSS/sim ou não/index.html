@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                font-family: monospace;
+            }
+            a{
+                text-decoration: none;
+            }
+            .box{
+                font-size: 30px;
+                color: #f7df1e;
+                height: 100vh;
+                width: 100vw;
+                border-radius: 10px;
+                background: #191919;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: bolder;
+            }
+            .buttons-container{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 50px;
+                width: 250px;
+            }
+            button{
+                height: 40px;
+                width: 100px;
+                background: white;
+                color: black;
+                font-weight: 600;
+                border-radius: 5px;
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <p>tu é gay?</p>
+            <div class="buttons-container">
+                <button><a href="https://www.youtube.com/watch?v=_lfJvAwiSeQ">Sim</a></button>
+                <button id="no">Não</button>
+            </div>
+        </div>
+    </body>
+    <script>
+        let button = document.getElementById('no');
+        let height = window.innerHeight - 100;
+        let width = window.innerWidth - 100;
+
+        button.addEventListener('mouseover',function (){
+            button.style.position = "absolute"
+            button.style.top = Math.random() * height + "px";
+            button.style.left = Math.random() * width + "px";
+        })
+    </script>
+</html>

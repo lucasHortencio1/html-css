@@ -1,0 +1,15 @@
+width = largura
+
+height = altura
+
+borda perto do pontilhado em volta = border
+
+espaço vazio entre a borda e o pontilhado em volta = padding =  espaço interno
+
+espaço externo = margin
+
+linha em volta da borda = outline
+
+box-level = ocupa uma linha inteira = <div>,<h1>-<h6>,<p>,<main>,<header>,<nav>,<article>,<aside>,<footer>,<form>,<video>.
+
+inline-level = não ocupa a linha inteira e não quebra linha = <span>,<a>,<code>,<small>,<strong>,<em>,<sup>-<sub>,<label>,<button>,<input>,<select>.
